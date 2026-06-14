@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "http://deltaclause.up.railway.app/api/:path*"
+      "destination": "https://deltaclause.up.railway.app/api/:path*"
     },
     {
       "source": "/(.*)",
