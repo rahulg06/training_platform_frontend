@@ -1,0 +1,196 @@
+{
+  "internships": [
+    {
+      "id": "intern-webdev",
+      "name": "Full Stack Web Development (MERN/Java)",
+      "detail": "Build high-performance, responsive industry-scale architectures. Work on JWT security filters, Docker deployment sheets, and custom UI components.",
+      "price": 1999,
+      "duration": "4 Weeks",
+      "domains": [
+        "Web Development",
+        "Backend Design"
+      ],
+      "taskSheets": [
+        {
+          "id": "wd-t1",
+          "title": "Task 1: Build a Responsive Dynamic Dashboard with Vite",
+          "description": "Design a bento-style analytics interface with custom Tailwind UI. Read and format server metrics from API files.",
+          "deadlineDays": 7
+        },
+        {
+          "id": "wd-t2",
+          "title": "Task 2: Implement Real-Time Secure Express JWT Middleware",
+          "description": "Create access filters, local token validation protocols, and custom cookie parsing configurations.",
+          "deadlineDays": 14
+        },
+        {
+          "id": "wd-t3",
+          "title": "Task 3: Connect Relational SQL Operations",
+          "description": "Design schema migration pipelines, execute indexed column queries, and prevent injection vulnerabilities.",
+          "deadlineDays": 21
+        },
+        {
+          "id": "wd-t4",
+          "title": "Task 4: Production Hosting & Asset Serving Optimization",
+          "description": "Deploy with custom reverse proxy configurations, compress static resources, and configure container ingress routing.",
+          "deadlineDays": 28
+        }
+      ]
+    },
+    {
+      "id": "intern-datasci",
+      "name": "Advanced Data Science & Machine Learning",
+      "detail": "Engage in actual corporate dataset modeling, clean tabular data, configure classification nodes, and render interactive D3 dashboards.",
+      "price": 2499,
+      "duration": "4 Weeks",
+      "domains": [
+        "Data Science",
+        "Machine Learning"
+      ],
+      "taskSheets": [
+        {
+          "id": "ds-t1",
+          "title": "Task 1: Dynamic Data Engineering Pipeline",
+          "description": "Aggregate raw JSON data streams, resolve missing null nodes programmatically, and calculate weighted averages.",
+          "deadlineDays": 7
+        },
+        {
+          "id": "ds-t2",
+          "title": "Task 2: Custom Supervised Classification Algorithm",
+          "description": "Implement decision regression metrics, calculate precision-recall, and build dynamic evaluation plots.",
+          "deadlineDays": 14
+        },
+        {
+          "id": "ds-t3",
+          "title": "Task 3: Beautiful Interactive D3 Layouts",
+          "description": "Build scalable cluster distributions, scatter plots with smooth transition paths, and responsive axis charts.",
+          "deadlineDays": 21
+        }
+      ]
+    },
+    {
+      "id": "intern-cloudnative",
+      "name": "Cloud Native DevOps & Orchestration",
+      "detail": "Master Kubernetes orchestration sheets, configure Nginx reverse routes, set up CD runners, and deploy mock clusters.",
+      "price": 2999,
+      "duration": "8 Weeks",
+      "domains": [
+        "DevOps",
+        "Cloud Engineering"
+      ],
+      "taskSheets": [
+        {
+          "id": "co-t1",
+          "title": "Task 1: Advanced Docker Isolation and Layers",
+          "description": "Write lightweight multi-stage configurations, avoid runtime execution vulnerabilities, and map secure ports.",
+          "deadlineDays": 10
+        },
+        {
+          "id": "co-t2",
+          "title": "Task 2: Kubernetes Orchestration & Target Health",
+          "description": "Implement safe rolling restart sheets, set up readiness checks, and map hostnames.",
+          "deadlineDays": 20
+        },
+        {
+          "id": "co-t3",
+          "title": "Task 3: automated GitHub Actions Integration",
+          "description": "Formulate complete lint, compile, and artifact delivery cycles securely.",
+          "deadlineDays": 35
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "email": "admin@deltaclause.com",
+      "name": "Deltaclause Executive Team",
+      "phone": "9999999999",
+      "passwordHash": "deltaclause_admin_hash",
+      "role": "admin",
+      "rewardPoints": 0,
+      "referredBy": null,
+      "referralCount": 0,
+      "refundEligible": false
+    },
+    {
+      "email": "rahulguptaendless@gmail.com",
+      "name": "Rahul Gupta",
+      "phone": "8888888888",
+      "passwordHash": "rahul123",
+      "role": "admin",
+      "rewardPoints": 0,
+      "referredBy": null,
+      "referralCount": 0,
+      "refundEligible": false
+    },
+    {
+      "name": "Rahul",
+      "email": "rahul@gmail.com",
+      "phone": "9829484833322",
+      "passwordHash": "123",
+      "role": "student",
+      "rewardPoints": 0,
+      "referredBy": null,
+      "referralCount": 0,
+      "refundEligible": false
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "enroll-seed-1",
+      "userEmail": "student@sample.com",
+      "userName": "Aarav Sharma",
+      "userPhone": "9876543210",
+      "internshipId": "intern-webdev",
+      "internshipName": "Full Stack Web Development (MERN/Java)",
+      "duration": "4 Weeks",
+      "pricePaid": 1999,
+      "paymentTxId": "TXN123456789",
+      "status": "approved",
+      "enrolledAt": "2026-06-04T13:20:25.880Z",
+      "approvedAt": "2026-06-05T13:20:25.881Z",
+      "tasks": [
+        {
+          "taskId": "wd-t1",
+          "taskTitle": "Task 1: Build a Responsive Dynamic Dashboard with Vite",
+          "submittedText": "Completed dashboard using Tailwind CSS grid layouts and clean SVG graphs.",
+          "submissionUrl": "https://github.com/sample/deltaclause-dashboard",
+          "submittedAt": "2026-06-09T13:20:25.881Z",
+          "status": "approved",
+          "feedback": "Outstanding layouts, correct typography, and completely fluid resizing triggers! Keep up the brilliant visual polish!"
+        },
+        {
+          "taskId": "wd-t2",
+          "taskTitle": "Task 2: Implement Real-Time Secure Express JWT Middleware",
+          "submittedText": "Implemented standard Express middleware with authentication filters.",
+          "submissionUrl": "https://github.com/sample/deltaclause-jwt",
+          "submittedAt": "2026-06-13T13:20:25.881Z",
+          "status": "pending"
+        }
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "id": "DC-INT-10254",
+      "studentName": "Aarav Sharma",
+      "studentEmail": "student@sample.com",
+      "internshipId": "intern-webdev",
+      "internshipName": "Full Stack Web Development (MERN/Java)",
+      "duration": "4 Weeks",
+      "issuedAt": "2026-06-04T13:20:25.881Z",
+      "digitalSignature": "0ef79db38cb469dc8693ccb3f5b7ea5725f16382fd937237"
+    }
+  ],
+  "emailLogs": [
+    {
+      "id": "mail-seed-1",
+      "to": "student@sample.com",
+      "subject": "Deltaclause Enrollment Approved - Welcome to Full Stack Web Development (MERN/Java)!",
+      "body": "Greetings Aarav Sharma,\n\nWe are absolutely thrilled to inform you that your UPI payment has been successfully reviewed and verified! Your training materials, sftp guidelines, and design task configurations are attached in the welcome PDF material booklet.\n\nYou can access your student dashboard directly on our platform:\nhttps://deltaclause.com/dashboard\n\nTask guidelines & SFTP resources code is attached.\n\nBest of Luck,\nTeam Deltaclause Operations",
+      "attachmentName": "Deltaclause_WebDev_Materials_Official.pdf",
+      "sentAt": "2026-06-05T13:20:25.881Z"
+    }
+  ],
+  "referralsNeededForRefund": 3
+}

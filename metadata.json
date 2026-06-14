@@ -1,0 +1,6 @@
+{
+  "name": "Deltaclause",
+  "description": "High-fidelity industry-grade project training platform with student and admin dashboards, verifiable certificate IDs, manual payment reviews, and smart referral engines.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
