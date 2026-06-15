@@ -246,7 +246,7 @@ export default function LandingHero({
       <section className="max-w-7xl mx-auto px-4">
         <div className="relative overflow-hidden rounded-3xl border border-slate-200 bg-white p-6 sm:p-10 shadow-sm">
           <div className="absolute top-0 right-0 p-8 text-7xl opacity-5">🪙</div>
-          <div className="grid gap-8 md:grid-cols-2 items-center">
+          <div className="grid gap-8 lg:grid-cols-2 items-start">
             <div className="space-y-4">
               <div className="inline-flex items-center space-x-1.5 rounded-full bg-indigo-50 px-3 py-1 text-xs font-semibold text-indigo-700 border border-indigo-100">
                 <Coins className="h-3.5 w-3.5" />
@@ -281,14 +281,14 @@ export default function LandingHero({
               </ul>
             </div>
 
-            <div className="bg-slate-50 rounded-2xl border border-slate-150 p-6 space-y-4">
+            <div className="bg-slate-50 rounded-2xl border border-slate-200 p-6 space-y-4 min-w-0">
               <span className="text-[10px] uppercase font-mono tracking-widest text-slate-400 font-bold block">Live Simulator Panel</span>
               <div className="space-y-3.5">
-                <div className="flex items-center justify-between border-b border-slate-100 pb-2 text-sm text-slate-800">
+                <div className="flex flex-col gap-2 border-b border-slate-100 pb-3 text-sm text-slate-800">
                   <span className="font-semibold">Your Referral Coupon</span>
-                  <span className="font-mono text-indigo-600 font-bold bg-white px-2.5 py-1 rounded-lg border border-slate-200">
-                    {userEmail || "your_email_or_phone"}
-                  </span>
+                  <div className="font-mono text-indigo-600 font-bold bg-white px-2.5 py-1 rounded-lg border border-slate-200 text-xs break-all max-w-full">
+                    {userEmail || "Not Logged In"}
+                  </div>
                 </div>
                 <div className="flex items-center justify-between text-xs text-slate-650 font-medium">
                   <span>Referred Students Enrolled</span>
